@@ -2,7 +2,37 @@ import Image from "next/image";
 import {sdk} from '@farcaster/miniapp-sdk'
 import { useEffect } from "react";
 
+ const frame = {
+  version: "next",
+  imageUrl: `https://themininextapp.vercel.app/icon.png`,
+  button: {
+    title: "Launch Frame",
+    action: {
+      type: "launch_frame",
+      name: "Farcaster Frames v2 Demo",
+      url: 'https://themininextapp.vercel.app',
+      splashImageUrl: `https://themininextapp.vercel.app/splash.png`,
+      splashBackgroundColor: "#f7f7f7",
+    },
+  },
+};
+
+export async function generateMetadata(): Promise<Metadata> {
+  return {
+    title: "Farcaster Frames v2 Demo",
+    openGraph: {
+      title: "Farcaster Frames v2 Demo",
+      description: "A Farcaster Frames v2 demo app.",
+    },
+    other: {
+      "fc:frame": JSON.stringify(frame),
+    },
+  };
+}
+
 export default function Home() {
+
+ 
 
   useEffect(
     ()=>{
