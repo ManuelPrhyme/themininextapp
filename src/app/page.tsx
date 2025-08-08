@@ -1,6 +1,7 @@
 import Image from "next/image";
 import {sdk} from '@farcaster/miniapp-sdk'
 import { useEffect } from "react";
+import { Metadata } from "next";
 
  const frame = {
   version: "next",
