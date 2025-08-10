@@ -33,7 +33,12 @@ export async function generateMetadata(): Promise<Metadata> {
 
 export default function Home() {
 
-  sdk.actions.ready();
+  const SDK =  async () => {
+    await sdk.actions.ready();
+  }
+
+  SDK();
+
 
 
   
