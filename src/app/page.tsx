@@ -1,35 +1,35 @@
 import Image from "next/image";
 import {sdk} from '@farcaster/miniapp-sdk'
-import { useEffect } from "react";
-import { Metadata } from "next";
+// import { useEffect } from "react";
+// import { Metadata } from "next";
 
- const frame = {
-  version: "next",
-  imageUrl: `https://themininextapp.vercel.app/icon.png`,
-  button: {
-    title: "Launch Frame",
-    action: {
-      type: "launch_frame",
-      name: "Farcaster Frames v2 Demo",
-      url: 'https://themininextapp.vercel.app',
-      splashImageUrl: `https://themininextapp.vercel.app/splash.png`,
-      splashBackgroundColor: "#f7f7f7",
-    },
-  },
-};
+//  const frame = {
+//   version: "next",
+//   imageUrl: `https://themininextapp.vercel.app/icon.png`,
+//   button: {
+//     title: "Launch Frame",
+//     action: {
+//       type: "launch_frame",
+//       name: "Farcaster Frames v2 Demo",
+//       url: 'https://themininextapp.vercel.app',
+//       splashImageUrl: `https://themininextapp.vercel.app/splash.png`,
+//       splashBackgroundColor: "#f7f7f7",
+//     },
+//   },
+// };
 
-export async function generateMetadata(): Promise<Metadata> {
-  return {
-    title: "Farcaster Frames v2 Demo",
-    openGraph: {
-      title: "Farcaster Frames v2 Demo",
-      description: "A Farcaster Frames v2 demo app.",
-    },
-    other: {
-      "fc:frame": JSON.stringify(frame),
-    },
-  };
-}
+// export async function generateMetadata(): Promise<Metadata> {
+//   return {
+//     title: "Farcaster Frames v2 Demo",
+//     openGraph: {
+//       title: "Farcaster Frames v2 Demo",
+//       description: "A Farcaster Frames v2 demo app.",
+//     },
+//     other: {
+//       "fc:frame": JSON.stringify(frame),
+//     },
+//   };
+// }
 
 export default function Home() {
 
@@ -39,9 +39,6 @@ export default function Home() {
 
   SDK();
 
-
-
-  
   return (
     <div className="font-sans grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20">
       <main className="flex flex-col gap-[32px] row-start-2 items-center sm:items-start">
