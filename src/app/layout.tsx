@@ -40,7 +40,7 @@ export default function RootLayout({
     "webhookUrl": "https://themininextapp.vercel.app/api/webhook",
     "subtitle" : "Dancing in the sun",
     "description" : "Here to play",
-    "primaryCategory" : "finance",
+    "primaryCategory" : "Finance",
     "tagline": "hot",
     "ogTitle": "Gota"  
             }'
