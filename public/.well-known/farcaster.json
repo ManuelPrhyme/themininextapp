@@ -1,0 +1,18 @@
+{
+  "accountAssociation": {
+    "header": "eyJmaWQiOjExNDkyMzksInR5cGUiOiJjdXN0b2R5Iiwia2V5IjoiMHhjMTNDY0JlODgwQTExN2ZiMmZkNzdFNDI0NjkwNGE4YzFBYmNiM0Q2In0",
+    "payload": "eyJkb21haW4iOiJ0aGVtaW5pbmV4dGFwcC52ZXJjZWwuYXBwIn0",
+    "signature": "MHhiZDg2NjhhODdlZGQxODM2MmM1MDFkZDAwNDZmNmYyMjQ2MWNjZjAwZTEzMzg0NGIzMWI3N2ViYTk5NWFkMTY3N2U5OTQ1ZDJkODYzY2RjOTY0YjUwMmMxODQxZGFmN2E1YjM0YmNhMmMxY2U0NmQ1NGU0N2FjZTRjYjI3ZmJiMjFj"
+  },
+  "frame": {
+    "version": "1",
+    "name": "My Frame",
+    "iconUrl": "https://themininextapp.vercel.app/icon.png",
+    "homeUrl": "https://themininextapp.vercel.app",
+    "imageUrl": "https://themininextapp.vercel.app/image.png",
+    "buttonTitle": "Mia Frame",
+    "splashImageUrl": "https://themininextapp.vercel.app/splash.png",
+    "splashBackgroundColor": "#eeccff",
+    "webhookUrl": "https://themininextapp.vercel.app/api/webhook"
+  }
+}
