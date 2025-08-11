@@ -28,7 +28,7 @@ export default function RootLayout({
       <head>
         <meta 
           name="fc:frame"
-          content = '{ "version": "1" , "imageUrl": "https://themininextapp.vercel.app/public/window.svg", "button": { "title" : "Start", "action" : { "type": "launch_miniapp", "url" : "https://themininextapp.vercel.app/", "name" : "Next App", "splashImageUrl" : "https://themininextapp.vercel.app/public/next.svg", "splashBackgroundColor":"#401e12"}}}'
+          content = '{ "version": "1" , "imageUrl": "https://imgs.search.brave.com/t3nLe2_DyIWv9XQKTP-SE7-tA2OfZsxQWcli5sIo34U/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9jZG4t/ZnJvbnQuZnJlZXBp/ay5jb20vaG9tZS9h/bm9uLXJ2bXAvY3Jl/YXRpdmUtc3VpdGUv/c29jaWFsLW1lZGlh/L29uLWJyYW5kLndl/YnA", "button": { "title" : "Start", "action" : { "type": "launch_miniapp", "url" : "https://themininextapp.vercel.app/", "name" : "Next App", "splashImageUrl" : "https://themininextapp.vercel.app/public/next.svg", "splashBackgroundColor":"#401e12"}}}'
       />
       
       </head>
