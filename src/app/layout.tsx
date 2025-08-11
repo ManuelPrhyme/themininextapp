@@ -37,9 +37,15 @@ export default function RootLayout({
     "buttonTitle": "Mia Next",
     "splashImageUrl": "https://themininextapp.vercel.app/splash.png",
     "splashBackgroundColor": "#401e12",
-    "webhookUrl": "https://themininextapp.vercel.app/api/webhook"
-        }'
-        />
+    "webhookUrl": "https://themininextapp.vercel.app/api/webhook",
+    "subtitle" : "Dancing in the sun",
+    "description" : Here to play",
+    "primaryCategory" : "Finance",
+    "tagline": "hot",
+    "ogTitle": "Gota"
+            }'
+    
+    />
       </head>
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
