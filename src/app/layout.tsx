@@ -36,7 +36,7 @@ export default function RootLayout({
     "imageUrl": "https://themininextapp.vercel.app/image.png",
     "buttonTitle": "Mia Next",
     "splashImageUrl": "https://themininextapp.vercel.app/splash.png",
-    "splashBackgroundColor": "#eeccff",
+    "splashBackgroundColor": "#401e12",
     "webhookUrl": "https://themininextapp.vercel.app/api/webhook"
         }'
         />

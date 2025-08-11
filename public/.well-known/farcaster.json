@@ -12,7 +12,7 @@
     "imageUrl": "https://themininextapp.vercel.app/image.png",
     "buttonTitle": "Mia Frame",
     "splashImageUrl": "https://themininextapp.vercel.app/splash.png",
-    "splashBackgroundColor": "#eeccff",
+    "splashBackgroundColor": "#401e12",
     "webhookUrl": "https://themininextapp.vercel.app/api/webhook"
   }
 }

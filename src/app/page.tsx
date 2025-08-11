@@ -20,7 +20,7 @@ export default function Home() {
 
   // },[])
 
-  // const [isReady,setIsReady] = useState(false)
+  const [isReady,setIsReady] = useState(false)
 
   // const connect = async () => {
   //     const accounts =  await WalletClient.requestPermissions({eth_accounts:{}})
