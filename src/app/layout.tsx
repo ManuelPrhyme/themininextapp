@@ -39,7 +39,7 @@ export default function RootLayout({
     "splashBackgroundColor": "#401e12",
     "webhookUrl": "https://themininextapp.vercel.app/api/webhook",
     "subtitle" : "Dancing in the sun",
-    "description" : Here to play",
+    "description" : "Here to play",
     "primaryCategory" : "Finance",
     "tagline": "hot",
     "ogTitle": "Gota"
