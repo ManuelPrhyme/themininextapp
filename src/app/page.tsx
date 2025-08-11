@@ -36,16 +36,21 @@ export default function Home() {
 
   const [isReady,setIsReady] = useState(false)
 
-  useEffect(()=>{
-    const SDK =  async () => {
-    await sdk.actions.ready();
-    setIsReady(true)
-  }
+   const assync = async() => {
+    await sdk.actions.ready();}
 
-  if(!isReady){
-    SDK();}
+    assync()
+
+//   useEffect(()=>{
+//     const SDK =  async () => {
+//     await sdk.actions.ready();
+//     setIsReady(true)
+//   }
+
+//   if(!isReady){
+//     SDK();}
   
-},[isReady])
+// },[isReady])
 
   return (
     <div className="font-sans grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20">
