@@ -10,21 +10,21 @@ export default function Home() {
 
   const [WalletClient,setWalletClient] =  useState()
 
-  useEffect(()=> {
-  const WalletClien_t =  createWalletClient({
-  chain: sepolia,
-  transport: custom(window.ethereum)
-    })
+  // useEffect(()=> {
+  // const WalletClien_t =  createWalletClient({
+  // chain: sepolia,
+  // transport: custom(window.ethereum)
+  //   })
 
-    setWalletClient(WalletClien_t)
+  //   setWalletClient(WalletClien_t)
 
-  },[])
+  // },[])
 
-  const [isReady,setIsReady] = useState(false)
+  // const [isReady,setIsReady] = useState(false)
 
-  const connect = async () => {
-      const accounts =  await WalletClient.requestPermissions({eth_accounts:{}})
-  } 
+  // const connect = async () => {
+  //     const accounts =  await WalletClient.requestPermissions({eth_accounts:{}})
+  // } 
 
    const assync = async() => {
     await sdk.actions.ready();}
