@@ -42,7 +42,7 @@ export default function RootLayout({
     "description" : "Here to play",
     "primaryCategory" : "Finance",
     "tagline": "hot",
-    "ogTitle": "Gota"
+    "ogTitle": "Gota"  
             }'
     
     />
