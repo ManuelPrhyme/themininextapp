@@ -1,6 +1,7 @@
+'use client'
 import Image from "next/image";
 import {sdk} from '@farcaster/miniapp-sdk'
-// import { useEffect } from "react";
+import { useEffect, useState } from "react";
 // import { Metadata } from "next";
 
 //  const frame = {
@@ -33,11 +34,18 @@ import {sdk} from '@farcaster/miniapp-sdk'
 
 export default function Home() {
 
-  const SDK =  async () => {
+  const [isReady,setIsReady] = useState(false)
+
+  useEffect(()=>{
+    const SDK =  async () => {
     await sdk.actions.ready();
+    setIsReady(true)
   }
 
-  SDK();
+  if(!isReady){
+    SDK();}
+  
+},[isReady])
 
   return (
     <div className="font-sans grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20">

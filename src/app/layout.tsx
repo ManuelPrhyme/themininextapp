@@ -25,6 +25,22 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <head>
+        <meta 
+          name="fc:frame"
+          content='{
+    "version": "1",
+    "name": "Mia Frame",
+    "iconUrl": "https://themininextapp.vercel.app/icon.png",
+    "homeUrl": "https://themininextapp.vercel.app",
+    "imageUrl": "https://themininextapp.vercel.app/image.png",
+    "buttonTitle": "Mia Next",
+    "splashImageUrl": "https://themininextapp.vercel.app/splash.png",
+    "splashBackgroundColor": "#eeccff",
+    "webhookUrl": "https://themininextapp.vercel.app/api/webhook"
+        }'
+        />
+      </head>
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
